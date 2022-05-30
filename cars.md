@@ -2,30 +2,30 @@ titolo : cars
 
 titolo colonna : car
 
+cars_id  / INT  /  auto icrement
 
-Marca
 
-Modello
+Marca TEXT NOTNULL
 
-Colore 
+Modello VARCHAR(200)  NOTNULL
 
-Cilindrata
+Colore TEXT  NULL
 
-Alimentazione 
+Cilindrata TEXT NULL
 
-Km percorsi
+Alimentazione TEXT  NULL
 
-Garanzia 
+Km percorsi /  float(11,3) NOTNULL
 
-Anno di produzione 
+Garanzia VARCHAR(200) NULL
 
-Prezzo
+Anno di produzione YEAR NOTNULL
 
-CV
+Prezzo /  float(7,3) NOTNULL
 
-Sconto
+Sconto  VARCHAR(200) NULL
 
-Optional(ES:Aria condizionata,
+Optional(ES:Aria condizionata, / VARCHAR(200)
  cambio automatico ecc)
 
 
